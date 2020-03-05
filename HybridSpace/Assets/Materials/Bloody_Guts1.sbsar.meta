@@ -1,0 +1,229 @@
+fileFormatVersion: 2
+guid: 2db58fd246eb3834d94286ccff8e6099
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: New_Graph
+    2800000: New_Graph - baseColor
+    2800002: New_Graph - normal
+    2800004: New_Graph - roughness
+    2800006: New_Graph - ambientOcclusion
+    2800008: New_Graph - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 19
+  mGraphInstanceData:
+  - graphLabel: New_Graph
+    prototypeName: New_Graph
+    graphDescIndex: 0
+    generateAllOutputs: 1
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://New_Graph\" label=\"\" >\n  <presetinput identifier=\"$randomseed\"
+      uid=\"227089467\" type=\"4\" value=\"4636\" />\n </sbspreset>\n"
+    shaderName: Third Dimension Studios/MegascansSurface
+    outputNames: 
+    materialProperties:
+      shader: {fileID: 4800000, guid: 2f0c6da1b1a98a04ba68bfa9233be763, type: 3}
+      shaderKeywords: _MAINTEX _NORMALMAP _OCCLUSIONMAP _PARALLAXMAP _ROUGHNESSMAP
+      lightmapFlags: 4
+      texEnvs:
+      - name: _AmbientOcclusion
+        texture: {fileID: 2800000, guid: 5af1e31ccbb08a841928932254083936, type: 3}
+        scale: {x: 1, y: 51}
+        offset: {x: 0, y: 0}
+      - name: _BumpMap
+        texture: {fileID: 2800002, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _Cavity
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailAlbedoMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailMask
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DetailNormalMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DispTex
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _DisplacementMap
+        texture: {fileID: 2800008, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _EmissionMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MainTex
+        texture: {fileID: 2800000, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _MetallicGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _OcclusionMap
+        texture: {fileID: 2800006, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _ParallaxMap
+        texture: {fileID: 2800008, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _Roughness
+        texture: {fileID: 2800000, guid: 8efb1c00a6abf3b46b6daa117692c683, type: 3}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      - name: _SpecGlossMap
+        texture: {instanceID: 0}
+        scale: {x: 1, y: 1}
+        offset: {x: 0, y: 0}
+      floats:
+      - name: _AOIntensity
+        float: 1
+      - name: _BumpScale
+        float: 1
+      - name: _Cutoff
+        float: 0.5
+      - name: _DetailAO
+        float: 0.5
+      - name: _DetailNormalMapScale
+        float: 1
+      - name: _DiffuseAO
+        float: 0
+      - name: _DispOffset
+        float: 0.5
+      - name: _DispPhong
+        float: 0.8
+      - name: _Displacement
+        float: 0.07
+      - name: _DisplacementAmount
+        float: 1.7
+      - name: _DstBlend
+        float: 0
+      - name: _GI_AO
+        float: 0
+      - name: _GlossMapScale
+        float: 1
+      - name: _Glossiness
+        float: 0.5
+      - name: _GlossyReflections
+        float: 1
+      - name: _Metallic
+        float: 0
+      - name: _Mode
+        float: 0
+      - name: _OcclusionStrength
+        float: 1
+      - name: _Parallax
+        float: 0.08
+      - name: _Phong
+        float: 0.488
+      - name: _ShadowLOD
+        float: 0.41
+      - name: _SmoothnessTextureChannel
+        float: 0
+      - name: _SpecAO
+        float: 0
+      - name: _SpecBurn
+        float: 0
+      - name: _SpecularHighlights
+        float: 1
+      - name: _SrcBlend
+        float: 1
+      - name: _Tess
+        float: 32
+      - name: _TessMode
+        float: 1
+      - name: _TesselationAmount
+        float: 150
+      - name: _TileAmount
+        float: 1
+      - name: _UVSec
+        float: 0
+      - name: _ZWrite
+        float: 1
+      - name: _maxDist
+        float: 0.4
+      colors:
+      - name: _Color
+        color: {r: 1, g: 1, b: 1, a: 1}
+      - name: _Displacement_TO
+        color: {r: 1, g: 1, b: 0, a: 0}
+      - name: _EmissionColor
+        color: {r: 0, g: 0, b: 0, a: 1}
+      - name: _SpecColor
+        color: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+      - name: _node_8890
+        color: {r: 1, g: 1, b: 1, a: 1}
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: New_Graph - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 16
+    - textureName: New_Graph - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: New_Graph - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 512
+      textureHeight: 512
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+    generatedTextures:
+    - {fileID: 2800000, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+    - {fileID: 2800002, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+    - {fileID: 2800004, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+    - {fileID: 2800006, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
+    - {fileID: 2800008, guid: 2db58fd246eb3834d94286ccff8e6099, type: 3}
